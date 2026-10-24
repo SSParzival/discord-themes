@@ -80,14 +80,17 @@ def validate_theme(d):
             
     return errors, warnings
 
-repo_dir = '/home/ssparzival/Proyectos/GitHub/discord-themes'
+repo_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 desktop_dir = os.path.join(repo_dir, 'Themes', 'Desktop')
 scripts_dir = os.path.join(repo_dir, 'scripts')
-os.makedirs(desktop_dir, exist_ok=True)
-os.makedirs(scripts_dir, exist_ok=True)
+check_only = '--check' in sys.argv
+
+if not check_only:
+    os.makedirs(desktop_dir, exist_ok=True)
+    os.makedirs(scripts_dir, exist_ok=True)
 
 files = sorted(glob.glob(os.path.join(repo_dir, 'Themes', '**', '*.json'), recursive=True))
-print(f'Processing {len(files)} themes...')
+print(f'Checking {len(files)} themes (check_only={check_only})...')
 
 for f in files:
     with open(f, 'r', encoding='utf-8') as fp:
@@ -199,7 +202,10 @@ for f in files:
     errs, warns = validate_theme(d)
     if errs or warns:
         raise ValueError(f'Validation failed for {f}: {errs}, {warns}')
-        
+
+    if check_only:
+        continue
+
     # Write back
     with open(f, 'w', encoding='utf-8') as fp:
         json.dump(d, fp, indent=2, ensure_ascii=False)
