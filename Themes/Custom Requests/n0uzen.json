@@ -406,6 +406,102 @@
     ],
     "BACKGROUND_MODIFIER_ACCENT": [
       "#FFFFFF14"
+    ],
+    "CONTROL_CONNECTED_BACKGROUND_ACTIVE": [
+      "#009AA3"
+    ],
+    "CONTROL_CONNECTED_BACKGROUND_DEFAULT": [
+      "#0090A3"
+    ],
+    "BUTTON_OUTLINE_BRAND_BORDER": [
+      "#0D0D11"
+    ],
+    "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": [
+      "#0D0D11"
+    ],
+    "CHAT_INPUT_BACKGROUND": [
+      "#0D0D11"
+    ],
+    "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": [
+      "#00000000"
+    ],
+    "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
+      "#9D00FF"
+    ],
+    "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": [
+      "#9D00FF"
+    ],
+    "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
+      "#0090A3"
+    ],
+    "CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT": [
+      "#FFFFFF"
+    ],
+    "MOBILE_LEGACY_BUTTON_SECONDARY_BACKGROUND_DEFAULT": [
+      "#0D0D11"
+    ],
+    "MOBILE_LEGACY_BUTTON_SECONDARY_BORDER_DEFAULT": [
+      "#0D0D11"
+    ],
+    "MOBILE_LEGACY_BUTTON_SECONDARY_TEXT_DEFAULT": [
+      "#E6F8FF"
+    ],
+    "CONTROL_PRIMARY_BACKGROUND_DEFAULT": [
+      "#0090A3"
+    ],
+    "CONTROL_PRIMARY_BACKGROUND_ACTIVE": [
+      "#009AA3"
+    ],
+    "CONTROL_PRIMARY_BORDER_DEFAULT": [
+      "#00000000"
+    ],
+    "CONTROL_PRIMARY_BORDER_ACTIVE": [
+      "#00000000"
+    ],
+    "CONTROL_PRIMARY_TEXT_DEFAULT": [
+      "#E6F8FF"
+    ],
+    "CONTROL_SECONDARY_TEXT_DEFAULT": [
+      "#E6F8FF"
+    ],
+    "CONTROL_CRITICAL_PRIMARY_BORDER_DEFAULT": [
+      "#FF70A6"
+    ],
+    "CONTROL_CRITICAL_PRIMARY_BORDER_ACTIVE": [
+      "#FF70A6"
+    ],
+    "MESSAGE_AUTOMOD_BACKGROUND_DEFAULT": [
+      "#00F0FF14"
+    ],
+    "MESSAGE_AUTOMOD_BACKGROUND_HOVER": [
+      "#00F0FF14"
+    ],
+    "MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT": [
+      "#00F0FF14"
+    ],
+    "MESSAGE_HIGHLIGHT_BACKGROUND_HOVER": [
+      "#00F0FF0F"
+    ],
+    "MENTION_BACKGROUND": [
+      "#00F0FF14"
+    ],
+    "MENTION_FOREGROUND": [
+      "#9D00FF"
+    ],
+    "BACKGROUND_SURFACE_HIGHEST": [
+      "#0D0D11"
+    ],
+    "MOBILE_FLOATINGBAR_BACKGROUND": [
+      "#0D0D11"
+    ],
+    "MOBILE_FLOATINGBAR_BACKGROUND_HIGHER": [
+      "#0D0D11"
+    ],
+    "MOBILE_FLOATING_ACCESSORY_BACKGROUND": [
+      "#0D0D11"
+    ],
+    "NAVIGATOR_HEADER_TINT": [
+      "#0D0D11"
     ]
   },
   "rawColors": {
@@ -545,8 +641,6 @@
     "NEUTRAL_99": "#0D0D11",
     "GREEN_NEW_22": "#0090A3",
     "GREEN_NEW_25": "#0090A3",
-    "CONTROL_CONNECTED_BACKGROUND_DEFAULT": "#0090A3",
-    "CONTROL_CONNECTED_BACKGROUND_ACTIVE": "#009AA3",
     "OPACITY_GREEN_8": "#00F0FF14",
     "OPACITY_GREEN_52": "#00F0FF85",
     "BLACK_500": "#0D0D11",
@@ -992,24 +1086,25 @@
     "BG_GRADIENT_UNDER_THE_SEA_3": "#0D0D11"
   },
   "fonts": {
-    "ABCGintoNord-ExtraBold": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-ExtraBold.ttf?raw=1",
-    "ggsans-Bold": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Bold.ttf?raw=1",
-    "ggsans-BoldItalic": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-BoldItalic.ttf?raw=1",
-    "ggsans-ExtraBold": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-ExtraBold.ttf?raw=1",
-    "ggsans-ExtraBoldItalic": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-ExtraBoldItalic.ttf?raw=1",
-    "ggsans-Medium": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Medium.ttf?raw=1",
-    "ggsans-MediumItalic": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-MediumItalic.ttf?raw=1",
-    "ggsans-Normal": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Normal.ttf?raw=1",
-    "ggsans-NormalItalic": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-NormalItalic.ttf?raw=1",
-    "ggsans-Semibold": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Semibold.ttf?raw=1",
-    "ggsans-SemiboldItalic": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-SemiboldItalic.ttf?raw=1",
-    "NotoSans-Bold": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Bold.ttf?raw=1",
-    "NotoSans-ExtraBold": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-ExtraBold.ttf?raw=1",
-    "NotoSans-Medium": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Medium.ttf?raw=1",
-    "NotoSans-Normal": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Normal.ttf?raw=1",
-    "NotoSans-NormalItalic": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-NormalItalic.ttf?raw=1",
-    "NotoSans-Semibold": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Semibold.ttf?raw=1",
-    "SourceCodePro-Semibold": "https://github.com/DEAD1nsane/discord-themes/raw/refs/heads/main/Fonts/Gantari-Semibold.ttf?raw=1"
+    "ABCGintoNord-ExtraBold": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-ExtraBold.ttf",
+    "ggsans-Bold": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Bold.ttf",
+    "ggsans-BoldItalic": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-BoldItalic.ttf",
+    "ggsans-ExtraBold": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-ExtraBold.ttf",
+    "ggsans-ExtraBoldItalic": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-ExtraBoldItalic.ttf",
+    "ggsans-Medium": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Medium.ttf",
+    "ggsans-MediumItalic": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-MediumItalic.ttf",
+    "ggsans-Normal": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Normal.ttf",
+    "ggsans-NormalItalic": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-NormalItalic.ttf",
+    "ggsans-Semibold": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Semibold.ttf",
+    "ggsans-SemiboldItalic": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-SemiboldItalic.ttf",
+    "NotoSans-Bold": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Bold.ttf",
+    "NotoSans-ExtraBold": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-ExtraBold.ttf",
+    "NotoSans-Medium": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Medium.ttf",
+    "NotoSans-Normal": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Normal.ttf",
+    "NotoSans-NormalItalic": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-NormalItalic.ttf",
+    "NotoSans-Semibold": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Semibold.ttf",
+    "SourceCodePro-Semibold": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Semibold.ttf",
+    "ggmono-Normal": "https://raw.githubusercontent.com/DEAD1nsane/discord-themes/main/Fonts/Gantari-Semibold.ttf"
   },
   "spec": 2,
   "sysColors": {

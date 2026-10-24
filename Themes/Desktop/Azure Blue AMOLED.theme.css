@@ -1,0 +1,43 @@
+/**
+ * @name Azure Blue AMOLED
+ * @author im__turbo__
+ * @version 1.0.0
+ * @description AMOLED black base, using blue, white & grey for everything else
+ * @source https://github.com/SSParzival/discord-themes
+*/
+
+:root {
+  /* Backgrounds */
+  --background-primary: #000000 !important;
+  --background-secondary: #000000 !important;
+  --background-secondary-alt: #000000 !important;
+  --background-tertiary: #000000 !important;
+  --background-accent: #08080830 !important;
+  --background-floating: #000000 !important;
+  --channeltextarea-background: #000000 !important;
+  --chat-background: #000000 !important;
+
+  /* Text & Headers */
+  --header-primary: #FFFFFF !important;
+  --header-secondary: #007FFF !important;
+  --text-normal: #FFFFFF !important;
+  --text-muted: #007FFF !important;
+  --text-link: #007FFF !important;
+
+  /* Interactive & Accents */
+  --interactive-normal: #007FFF !important;
+  --interactive-hover: #007FFF !important;
+  --interactive-active: #007FFF !important;
+  --interactive-muted: #2A2A2A !important;
+  --brand-experiment: #007FFF !important;
+  --brand-experiment-500: #007FFF !important;
+  --brand-experiment-560: #007FFF !important;
+  --button-secondary-background: #000000 !important;
+  --button-secondary-border: #000000 !important;
+
+  /* Mentions & Hover */
+  --background-mentioned: #007FFF40 !important;
+  --background-mentioned-hover: #007FFF40 !important;
+  --background-message-hover: #000000 !important;
+}
+

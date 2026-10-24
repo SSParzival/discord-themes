@@ -1,0 +1,43 @@
+/**
+ * @name coffin
+ * @author im__turbo__
+ * @version 1.0.0
+ * @description AMOLED black base, using pink, white & grey for everything else
+ * @source https://github.com/SSParzival/discord-themes
+*/
+
+:root {
+  /* Backgrounds */
+  --background-primary: #000000 !important;
+  --background-secondary: #000000 !important;
+  --background-secondary-alt: #000000 !important;
+  --background-tertiary: #000000 !important;
+  --background-accent: #08080830 !important;
+  --background-floating: #000000 !important;
+  --channeltextarea-background: #000000 !important;
+  --chat-background: #000000 !important;
+
+  /* Text & Headers */
+  --header-primary: #FFFFFF !important;
+  --header-secondary: #FF82AD !important;
+  --text-normal: #FFFFFF !important;
+  --text-muted: #FF82AD !important;
+  --text-link: #FF82AD !important;
+
+  /* Interactive & Accents */
+  --interactive-normal: #FF82AD !important;
+  --interactive-hover: #FF82AD !important;
+  --interactive-active: #FF82AD !important;
+  --interactive-muted: #2A2A2A !important;
+  --brand-experiment: #FF82AD !important;
+  --brand-experiment-500: #FF82AD !important;
+  --brand-experiment-560: #FF82AD !important;
+  --button-secondary-background: #000000 !important;
+  --button-secondary-border: #000000 !important;
+
+  /* Mentions & Hover */
+  --background-mentioned: #FF82AD40 !important;
+  --background-mentioned-hover: #FF82AD40 !important;
+  --background-message-hover: #000000 !important;
+}
+

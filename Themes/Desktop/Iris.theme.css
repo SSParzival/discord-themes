@@ -1,0 +1,43 @@
+/**
+ * @name Iris
+ * @author im__turbo__
+ * @version 1.0.0
+ * @description AMOLED black base, using Pale Pink (#FFB5FF), white & grey for everything else
+ * @source https://github.com/SSParzival/discord-themes
+*/
+
+:root {
+  /* Backgrounds */
+  --background-primary: #000000 !important;
+  --background-secondary: #000000 !important;
+  --background-secondary-alt: #000000 !important;
+  --background-tertiary: #000000 !important;
+  --background-accent: #08080830 !important;
+  --background-floating: #000000 !important;
+  --channeltextarea-background: #000000 !important;
+  --chat-background: #000000 !important;
+
+  /* Text & Headers */
+  --header-primary: #FFFFFF !important;
+  --header-secondary: #FFB5FF !important;
+  --text-normal: #FFFFFF !important;
+  --text-muted: #FFB5FF !important;
+  --text-link: #FFB5FF !important;
+
+  /* Interactive & Accents */
+  --interactive-normal: #FFB5FF !important;
+  --interactive-hover: #FFB5FF !important;
+  --interactive-active: #FFB5FF !important;
+  --interactive-muted: #2A2A2A !important;
+  --brand-experiment: #FFB5FF !important;
+  --brand-experiment-500: #FFB5FF !important;
+  --brand-experiment-560: #FFB5FF !important;
+  --button-secondary-background: #000000 !important;
+  --button-secondary-border: #000000 !important;
+
+  /* Mentions & Hover */
+  --background-mentioned: #FFB5FF40 !important;
+  --background-mentioned-hover: #FFB5FF40 !important;
+  --background-message-hover: #000000 !important;
+}
+

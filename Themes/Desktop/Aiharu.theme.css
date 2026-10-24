@@ -1,0 +1,43 @@
+/**
+ * @name Aiharu
+ * @author im__turbo__
+ * @version 1.0.0
+ * @description AMOLED black base, using teal, white & grey for everything else
+ * @source https://github.com/SSParzival/discord-themes
+*/
+
+:root {
+  /* Backgrounds */
+  --background-primary: #000000 !important;
+  --background-secondary: #000000 !important;
+  --background-secondary-alt: #000000 !important;
+  --background-tertiary: #000000 !important;
+  --background-accent: #08080830 !important;
+  --background-floating: #000000 !important;
+  --channeltextarea-background: #000000 !important;
+  --chat-background: #000000 !important;
+
+  /* Text & Headers */
+  --header-primary: #FFFFFF !important;
+  --header-secondary: #55DDEE !important;
+  --text-normal: #FFFFFF !important;
+  --text-muted: #55DDEE !important;
+  --text-link: #55DDEE !important;
+
+  /* Interactive & Accents */
+  --interactive-normal: #55DDEE !important;
+  --interactive-hover: #55DDEE !important;
+  --interactive-active: #55DDEE !important;
+  --interactive-muted: #2A2A2A !important;
+  --brand-experiment: #55DDEE !important;
+  --brand-experiment-500: #55DDEE !important;
+  --brand-experiment-560: #55DDEE !important;
+  --button-secondary-background: #000000 !important;
+  --button-secondary-border: #000000 !important;
+
+  /* Mentions & Hover */
+  --background-mentioned: #55DDEE40 !important;
+  --background-mentioned-hover: #55DDEE40 !important;
+  --background-message-hover: #000000 !important;
+}
+

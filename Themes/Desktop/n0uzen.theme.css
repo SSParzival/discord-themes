@@ -1,0 +1,43 @@
+/**
+ * @name n0uzen
+ * @author im__turbo__
+ * @version 1.0.0
+ * @description Onyx Black (#0D0D11) base, using Neon Cyan (#00F0FF) & Electric Purple (#9D00FF), Ice White text & Soft Magenta subtext for everything else
+ * @source https://github.com/SSParzival/discord-themes
+*/
+
+:root {
+  /* Backgrounds */
+  --background-primary: #0D0D11 !important;
+  --background-secondary: #0D0D11 !important;
+  --background-secondary-alt: #0D0D11 !important;
+  --background-tertiary: #0D0D11 !important;
+  --background-accent: #0090A3 !important;
+  --background-floating: #0D0D11 !important;
+  --channeltextarea-background: #0D0D11 !important;
+  --chat-background: #0D0D11 !important;
+
+  /* Text & Headers */
+  --header-primary: #E6F8FF !important;
+  --header-secondary: #9D00FF !important;
+  --text-normal: #E6F8FF !important;
+  --text-muted: #9D00FF !important;
+  --text-link: #9D00FF !important;
+
+  /* Interactive & Accents */
+  --interactive-normal: #9D00FF !important;
+  --interactive-hover: #9D00FF !important;
+  --interactive-active: #9D00FF !important;
+  --interactive-muted: #9D00FF !important;
+  --brand-experiment: #0090A3 !important;
+  --brand-experiment-500: #0090A3 !important;
+  --brand-experiment-560: #0090A3 !important;
+  --button-secondary-background: #0D0D11 !important;
+  --button-secondary-border: #0D0D11 !important;
+
+  /* Mentions & Hover */
+  --background-mentioned: #00F0FF40 !important;
+  --background-mentioned-hover: #00F0FF40 !important;
+  --background-message-hover: #0D0D11 !important;
+}
+

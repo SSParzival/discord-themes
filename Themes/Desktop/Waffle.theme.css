@@ -1,0 +1,43 @@
+/**
+ * @name Waffle
+ * @author im__turbo__
+ * @version 1.0.0
+ * @description AMOLED black base using yellow, white & grey for everything else
+ * @source https://github.com/SSParzival/discord-themes
+*/
+
+:root {
+  /* Backgrounds */
+  --background-primary: #000000 !important;
+  --background-secondary: #000000 !important;
+  --background-secondary-alt: #000000 !important;
+  --background-tertiary: #000000 !important;
+  --background-accent: #08080830 !important;
+  --background-floating: #000000 !important;
+  --channeltextarea-background: #000000 !important;
+  --chat-background: #000000 !important;
+
+  /* Text & Headers */
+  --header-primary: #FFFFFF !important;
+  --header-secondary: #FFB71B !important;
+  --text-normal: #FFFFFF !important;
+  --text-muted: #FFB71B !important;
+  --text-link: #FFB71B !important;
+
+  /* Interactive & Accents */
+  --interactive-normal: #FFB71B !important;
+  --interactive-hover: #FFB71B !important;
+  --interactive-active: #FFB71B !important;
+  --interactive-muted: #2A2A2A !important;
+  --brand-experiment: #FFB71B !important;
+  --brand-experiment-500: #FFB71B !important;
+  --brand-experiment-560: #FFB71B !important;
+  --button-secondary-background: #000000 !important;
+  --button-secondary-border: #000000 !important;
+
+  /* Mentions & Hover */
+  --background-mentioned: #FFB71B40 !important;
+  --background-mentioned-hover: #FFB71B40 !important;
+  --background-message-hover: #000000 !important;
+}
+
