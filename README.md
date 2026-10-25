@@ -8,9 +8,14 @@
 
 Anteriormente, los temas de este repositorio fallaban o presentaban errores visuales (botones sin tema, errores de validación, fuentes faltantes o textos ilegibles) en las versiones modernas de Discord. Se aplicaron las siguientes correcciones en cada uno de los 24 temas:
 
-1. **Compatibilidad con el Rediseño Moderno de Discord (React Native v220 - v340+)**:
-   - Se incorporaron más de 30 tokens semánticos modernos:
-     - `CHAT_INPUT_BACKGROUND`, `CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND`, `CHAT_INPUT_ACTION_BUTTON_BACKGROUND`, etc.
+1. **Compatibilidad con el Rediseño Moderno de Discord (React Native v220 - v340+) y Mana UI**:
+   - Se corrigió el fallo crítico en Android (`ToastContainer / ManaToastSurface` crash):
+     - Incorporación de tokens esenciales: `TOAST_BG`, `ALERT_BG`, `CARD_PRIMARY_BG`, `CARD_PRIMARY_PRESSED_BG`, `CARD_SECONDARY_BG`, `CARD_MUTED_BG`, `MODAL_BACKGROUND`, `MODAL_FOOTER_BACKGROUND`, `BG_SURFACE_OVERLAY`, `BG_SURFACE_OVERLAY_TMP`, `BG_SURFACE_RAISED`, `BG_BASE_PRIMARY`, `BG_BASE_SECONDARY`, `BG_BASE_TERTIARY`, `BG_MOD_FAINT`, `BG_MOD_SUBTLE`, `BG_MOD_STRONG`.
+     - Expansión de todos los valores de `semanticColors` a ternas `[dark, light, amoled]`. Esto evita que Discord en modo AMOLED (Midnight) intente acceder al índice 2 y reciba `undefined`, lo que provocaba el crash en el motor de renderizado de React Native.
+     - Removido el paquete desactualizado `iconpack: "rosiecord-plumpy"` del bloque `plus` para prevenir fallos en la carga de iconos nativos en Toasts y superficies.
+     - Removido el bloque experimental no estándar `sysColors` (Monet) para total conformidad con la especificación `spec: 2`.
+   - Soporte exhaustivo para controles de chat y navegación:
+     - `CHAT_INPUT_BACKGROUND`, `CHANNELTEXTAREA_BACKGROUND`, `CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND`, `CHAT_INPUT_ACTION_BUTTON_BACKGROUND`, etc.
      - `CONTROL_PRIMARY_*`, `CONTROL_SECONDARY_*`, `MOBILE_LEGACY_BUTTON_SECONDARY_*` para evitar botones blancos sin tema.
      - `MESSAGE_BACKGROUND_HOVER`, `MESSAGE_MENTIONED_BACKGROUND_DEFAULT`, `MESSAGE_MENTIONED_BACKGROUND_HOVER`, `MENTION_BACKGROUND`, `MENTION_FOREGROUND`.
      - `MESSAGE_AUTOMOD_BACKGROUND_DEFAULT`, `MESSAGE_HIGHLIGHT_BACKGROUND_DEFAULT`.
@@ -28,7 +33,7 @@ Anteriormente, los temas de este repositorio fallaban o presentaban errores visu
 5. **100% Validado**:
    - Cada uno de los 24 temas pasa la validación oficial del [Revenge / Bunny Theme Validator](https://purple-eyez.github.io/Bunny-Theme-Keys/Validator/) con **0 errores y 0 advertencias**.
 6. **Soporte para Escritorio (Vesktop / Vencord / BetterDiscord)**:
-   - Se generaron versiones en CSS (`.theme.css`) para cada tema dentro de `Themes/Desktop/`.
+   - Se generaron versiones en CSS (`.theme.css`) para cada tema dentro de `Themes/Desktop/` con selectores universales `:root, .theme-dark, .theme-light, .theme-amoled` que combinan variables clásicas (`--background-primary`, `--header-primary`, etc.) y las variables modernas del rediseño (`--bg-base-*`, `--bg-surface-*`, `--text-default`, `--card-*`, `--modal-*`).
 
 ---
 

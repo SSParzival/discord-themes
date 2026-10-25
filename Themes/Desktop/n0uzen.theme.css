@@ -6,8 +6,8 @@
  * @source https://github.com/SSParzival/discord-themes
 */
 
-:root {
-  /* Backgrounds */
+:root, .theme-dark, .theme-light, .theme-amoled {
+  /* Legacy Discord CSS variables */
   --background-primary: #0D0D11 !important;
   --background-secondary: #0D0D11 !important;
   --background-secondary-alt: #0D0D11 !important;
@@ -17,14 +17,12 @@
   --channeltextarea-background: #0D0D11 !important;
   --chat-background: #0D0D11 !important;
 
-  /* Text & Headers */
   --header-primary: #E6F8FF !important;
   --header-secondary: #9D00FF !important;
   --text-normal: #E6F8FF !important;
   --text-muted: #9D00FF !important;
   --text-link: #9D00FF !important;
 
-  /* Interactive & Accents */
   --interactive-normal: #9D00FF !important;
   --interactive-hover: #9D00FF !important;
   --interactive-active: #9D00FF !important;
@@ -35,9 +33,31 @@
   --button-secondary-background: #0D0D11 !important;
   --button-secondary-border: #0D0D11 !important;
 
-  /* Mentions & Hover */
   --background-mentioned: #00F0FF40 !important;
   --background-mentioned-hover: #00F0FF40 !important;
   --background-message-hover: #0D0D11 !important;
+
+  /* Modern Discord (Redesign / New CSS variables) */
+  --bg-base-primary: #0D0D11 !important;
+  --bg-base-secondary: #0D0D11 !important;
+  --bg-base-tertiary: #0D0D11 !important;
+  --bg-surface-raised: #0D0D11 !important;
+  --bg-surface-overlay: #0D0D11 !important;
+  --bg-mod-faint: #0090A3 !important;
+  --bg-mod-subtle: #0090A3 !important;
+  --bg-mod-normal: #0D0D11 !important;
+  --bg-mod-strong: #0D0D11 !important;
+
+  --text-default: #E6F8FF !important;
+  --text-strong: #E6F8FF !important;
+  --text-subtle: #9D00FF !important;
+  --interactive-default: #9D00FF !important;
+
+  --input-background: #0D0D11 !important;
+  --modal-background: #0D0D11 !important;
+  --modal-footer-background: #0D0D11 !important;
+  --card-primary-bg: #0D0D11 !important;
+  --card-secondary-bg: #0D0D11 !important;
+  --card-muted-bg: #0D0D11 !important;
 }
 
